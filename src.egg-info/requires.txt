@@ -1,3 +1,0 @@
-dvc
-pandas
-scikit-learn
