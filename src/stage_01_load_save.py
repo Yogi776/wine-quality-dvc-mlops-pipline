@@ -3,6 +3,7 @@ import argparse
 import pandas as pd
 import os
 
+
 def get_data(config_path):
     config = read_yaml(config_path)
     remote_data_path = config["data_source"]
