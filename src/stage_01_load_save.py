@@ -9,8 +9,6 @@ def get_data(config_path):
     remote_data_path = config["data_source"]
     df = pd.read_csv(remote_data_path, sep=";")
 
-    # save dataset in the local directory
-    # create path to directory: artifacts/raw_local_dir/data.csv
     artifacts_dir = config["artifacts"]['artifacts_dir']
     raw_local_dir = config["artifacts"]['raw_local_dir']
     raw_local_file = config["artifacts"]['raw_local_file']
