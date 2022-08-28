@@ -34,6 +34,9 @@ stages:
       - model_params.ElasticNet.alpha
       - model_params.ElasticNet.l1_ratio
 
+    outs:
+      - artifacts/model_dir/ElasticNet.model
+
 
       
   

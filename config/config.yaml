@@ -9,3 +9,6 @@ artifacts:
   split_data_dir: split_data_dir
   train: train.csv
   test: test.csv
+
+  model_dir: model_dir
+  model_filename: ElasticNet.model
