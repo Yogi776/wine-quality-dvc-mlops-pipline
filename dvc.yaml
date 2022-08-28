@@ -8,7 +8,7 @@ stages:
     outs:
       - artifacts/raw_local_dir/data.csv
 
-  s[lit_data:
+  split_data:
     cmd: python src/stage_02_split_data.py --config=config/config.yaml  --params=params.yaml  
     deps:
       - src/stage_02_split_data.py
